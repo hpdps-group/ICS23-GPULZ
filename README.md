@@ -49,7 +49,7 @@ decompression e2e throughput: 34.4679 GB/s
 
 To obtain more accurate timing for the compression kernel, please use ```nsys``` before the execution command, like
 ```
-nsys profile --stats=true ./gpulz -i ./02_HURR_zyx_100x500x500=25000000/QCLOUDf48.bin.f32.errctrl.1e-3
+nsys profile --stats=true ./gpulz -i ./QCLOUDf48.bin.f32.errctrl.1e-3
 ```
 
 You will observe the time for each kernel, i.e., compressKernelI (compression kernel I), compressKernelIII (compression kernel III), cub::DeviceScanKernel (CUB prefix sum kernel), and decompressKernel (decompression kernel).
