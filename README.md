@@ -37,7 +37,7 @@ Please use the below command to run ```gpulz``` on a float32 data.
 
 For example,
 ```
-./gpulz -i ./02_HURR_zyx_100x500x500=25000000/QCLOUDf48.bin.f32.errctrl.1e-3
+./gpulz -i ./QCLOUDf48.bin.f32.errctrl.1e-3
 ```
 
 Finally, you can observe the output including compression ratio and compression/decompression end-to-end throughputs.
