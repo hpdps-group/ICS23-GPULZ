@@ -26,12 +26,8 @@ Please modify the following code in ```gpulz.cu``` for different configurations.
 #define INPUT_TYPE uint32_t // define input type as c++ doesn't support runtime data type definition
 ```
 
-## Download Data
-Please use ```get_sample_data.sh``` to download the sample data. If you want to download more sample data, please remove the commented lines from the script.
-
-```
-./get_sample_data.sh
-```
+## Sample Data
+We include one quantized field (QCLOUDf48) from the Hurricane dataset in SDRBench (https://sdrbench.github.io/) and have uploaded it to the GitHub repository.
 
 ## Run GPULZ
 Please use the below command to run ```gpulz``` on a float32 data.
